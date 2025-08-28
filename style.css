@@ -58,7 +58,7 @@ video {
     object-fit: contain;
 }
 
-.footer {
+footer {
     padding-right: 200px;
     font-size: 5vh;
     text-align: center;
@@ -100,4 +100,5 @@ video {
         font-size: 2.5vh;
     }
 }
+
 
