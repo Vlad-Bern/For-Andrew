@@ -1,15 +1,15 @@
-    @keyframes appear {
+@keyframes appear {
     from {
-    transform: translateY(30px) skew(5deg, 5deg);
-    opacity: 0;
+        transform: translateY(30px) skew(5deg, 5deg);
+        opacity: 0;
     }
     to {
-    transform: translateY(0px) skew(0deg, 0deg);
-    opacity: 1;
+        transform: translateY(0px) skew(0deg, 0deg);
+        opacity: 1;
     }
-    }
+}
 
-    body {
+body {
     background-color: orange;
     display: flex;
     align-items: center;
@@ -17,87 +17,86 @@
     padding: 0;
     margin: 0;
     animation: appear 2s ease;
-    }
+}
 
-    header {
+header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20vh;
     text-align: center;
     margin: 20px 0;
-    }
+}
 
-    .main {
+.main {
     display: flex;
     align-items: center;
     flex-direction: column;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+}
 
-    .HB {
+.HB {
     width: 100%;
     height: 40vh;
     padding-bottom: 100px;
     object-fit: contain;
-    }
+}
 
-    .FunnyAndrew {
+.FunnyAndrew {
     width: 100%;
     height: 80vh;
     object-fit: contain;
-    }
+}
 
-    .text {
+.text {
     font-size: 10vh;
     text-align: center;
     padding: 10px;
-    }
+}
 
-    .video {
+.video {
     width: 100%;
     height: 70vh;
     object-fit: contain;
-    }
+}
 
-    .footer {
+.footer {
     padding-right: 200px;
     font-size: 5vh;
     text-align: center;
     margin-top: 20px;
-    }
+}
 
-    @media (max-width: 768px) {
+@media (max-width: 768px) {
     header {
-    font-size: 8vh;
+        font-size: 8vh;
     }
 
     .text {
-    font-size: 5vh;
+        font-size: 5vh;
     }
 
     .HB,
     .FunnyAndrew,
     .video {
-    height: auto;
-    max-width: 100%;
+        height: auto;
+        max-width: 100%;
     }
 
     .footer {
-    padding-right: 0;
-    font-size: 3vh;
+        padding-right: 0;
+        font-size: 3vh;
     }
-    }
+}
 
-    @media (max-width: 480px) {
+@media (max-width: 480px) {
     header {
-    font-size: 6vh;
+        font-size: 6vh;
     }
 
     .text {
-    font-size: 4vh;
+        font-size: 4vh;
     }
 
     .footer {
-    font-size: 2.5vh;
+        font-size: 2.5vh;
     }
 }
- 
